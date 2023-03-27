@@ -1,15 +1,23 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tales Management</title>
     <style>
       img {
-  display: block;
-  margin: 0 auto;
-  max-width: 100%;
-  height: auto;
-  border-radius: 50%;
-}
+        display: block;
+        margin: 0 auto;
+        max-width: 100%;
+        height: auto;
+        border-radius: 50%;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+      }
+      @media only screen and (min-width: 768px) {
+        /* styles for tablets and desktops */
+        img {
+          max-width: 50%;
+        }
+      }
     </style>
   </head>
   <body>
